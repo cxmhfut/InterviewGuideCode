@@ -5,7 +5,7 @@ public class DoubleNode {
     public DoubleNode next;
     int value;
 
-    DoubleNode(int value) {
+    public DoubleNode(int value) {
         this.value = value;
     }
 }

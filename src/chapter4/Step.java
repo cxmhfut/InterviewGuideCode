@@ -30,7 +30,7 @@ public class Step {
         for (int i = 3; i <= n; i++) {
             int tmp = res;
             res = res + pre;
-            pre = res;
+            pre = tmp;
         }
 
         return res;
