@@ -1,10 +1,13 @@
 package chapter4;
 
-import java.util.HashSet;
-import java.util.Set;
+import org.junit.Test;
 
 public class Chapter4TestCase {
-    public static void main(String[] args) {
-        Set<Integer> set = new HashSet<>();
+
+    @Test
+    public void testJumpGame(){
+        int arr[]={3,2,3,1,1,4};
+        System.out.println(JumpGame.jump(arr));
     }
+
 }
